@@ -1,0 +1,128 @@
+@font-face {
+   font-family: OldEnglishRegular;
+   src: url(old_engl-webfont.woff);
+}
+
+@font-face {
+   font-family: travelingType;
+   src: url(TravelingTypewriter.ttf);
+}
+
+@font-face {
+   font-family: splendidB;
+   src: url(SplendidB.ttf);
+}
+
+@font-face {
+   font-family: splendidI;
+   src: url(SplendidI.ttf);
+}
+
+@font-face {
+   font-family: splendid;
+   src: url(SplendidN.ttf);
+}
+
+*{
+    background-image: url(white-paper-seamless-pattern-for-website-background.jpg);
+}
+.header{
+    text-align: center;
+    font-family: OldEnglishRegular;
+    font-size: 300%;
+    padding-top: 20px;
+}
+
+.header h4{
+    font-family: splendidB;
+    font-size: 40%;
+    font-weight: lighter;
+    padding: 10px;
+}
+.header nav{
+    font-size: 35%;
+    text-align: center;
+    font-family: splendidI;
+    background-color: darkgrey;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+article{
+    padding: 10px;
+    border-top: solid;
+    border-width: 2px;
+    text-align: center;
+}
+
+article .title{
+   font-family: travelingType;
+    font-size: 125%;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+article .abstract{
+    padding-bottom: 10px;
+    font-family: travelingType;
+    font-size: 100%;
+}
+
+article .link{
+    font-family: travelingType;
+    font-size: 75%;
+    color: gray;
+    padding: 20px;
+}
+
+.userInput{
+    font-family: travelingType;
+    text-align: center;
+    padding: 20px;    
+}
+
+.userInput h2{
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#search{
+    padding: 10px;
+}
+
+#sDate{
+    padding: 10px;
+}
+
+#eDate{
+    padding: 10px;
+}
+
+#sort{
+    padding: 10px;
+}
+
+#returnedTitle{
+    font-family: travelingType;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.about{
+    font-family: travelingType;
+    text-align: center;
+    padding: 20px;
+}
+
+a:hover {
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: none;
+}
